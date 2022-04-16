@@ -14,6 +14,7 @@ services:
       - postgres
     volumes:
       - .:/app
+      - ./remote-vscode:/root/.vscode-server/extensions
     env_file:
       - ./.envs/.local/.django
       - ./.envs/.local/.postgres
