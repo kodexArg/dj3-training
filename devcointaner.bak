@@ -1,0 +1,14 @@
+{
+    "name": "django configuration",
+    "dockerComposeFile": [
+        "../local.yml",
+        "./local.yml"
+    ],
+    "service": "django",
+    "forwardPorts": [8000],
+    "workspaceFolder": "/app",
+    "extensions": [
+        "batisteo.vscode-django",
+        "ms-python.vscode-pylance"
+    ],
+}

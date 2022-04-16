@@ -1,0 +1,9 @@
+{
+    "name": "django configuration",
+    "dockerComposeFile": [
+        "../local.yml"
+    ],
+    "service": "django",
+    "forwardPorts": [8000],
+    "workspaceFolder": "/app",
+}
